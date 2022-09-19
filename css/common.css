@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.timer {
+  display: flex;
+  justify-content: center
+}
+
+.inputTimer {
+  width: 200px;
+  height: 50px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-right: none;
+  padding: 7px;
+}
+
+.field {
+  margin-right: 10px;
+
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.value {
+  font-size: 50px;
+}
+
+.btn {
+  height: 50px;
+  width: 140px;
+  background: linear-gradient(to left, grey, white);
+  /* background-color: rgb(88, 172, 144); */
+
+  border: 1px solid gray;
+  border-left: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+.containerInput {
+  display: flex;
+  justify-content: center;
+}
+
+.flatpickr-input {
+  height: 50px;
+  width: 180px;
+border: 1px solid gray;
+
+}
+
+.containerColor {
+  text-align: center;
+}
+
+.buttonColor {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+
+}
+
+.buttonColor span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonColor span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonColor:hover span {
+  padding-right: 25px;
+}
+
+.buttonColor:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.goBackColor {
+  color: #f4511e;
+  text-decoration: none;
+  border: 2px solid white;
+
+
+}
+
+.containerHome {
+  margin: 0 auto;
+  position: relative;
+
+  width: 400px;
+  height: 300px;
+  ;
+  box-shadow: 8px 10px 51px -10px rgba(0, 0, 0, 0.75);
+}
+
+.listHome {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.linkHome {
+  font-size: 30px;
+  color: grey;
+}
+
+.itemHome {
+  margin-bottom: 15px;
+
+}
+
+.itemHome:last-child {
+  margin-bottom: 0;
+}
