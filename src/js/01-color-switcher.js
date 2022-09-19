@@ -25,25 +25,3 @@ function onStop() {
   stopBtn.setAttribute('disabled', true);
   clearInterval(intervalId);
 }
-
-// function onStart() {
-//     // if (onStart) {
-
-//     //    startBtn.removeAttribute('disabled');
-//     //     return
-//     // } startBtn.setAttribute('disabled', true)
-
-// startBtn.addEventListener('click',  () => {
-//   intervalId = setInterval(() => {
-
-//   }, 1000);
-// });}
-// onStart()
-
-// function onStop(){
-// stopBtn.addEventListener('click', () => {
-//   clearInterval(intervalId);
-//   console.log(`Interval with id ${intervalId} has stopped!`);
-// });
-// }
-// onStop()
